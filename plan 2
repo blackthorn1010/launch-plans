@@ -1,0 +1,688 @@
+Cursor launch plan
+
+TRADEBOOK — A-TO-Z LAUNCH PLAN
+From first listing to a living corridor book
+Date: 9 September 2026
+Owner: TJ Standridge · Cleveland / Birmingham, AL
+This revises the 8 Sep draft. Product facts: docs/TRADEBOOK.md
+Store copy: docs/STORE-LISTING.md
+Money-path gates: docs/CURSOR-REVIEW-2026-09-08.md C1–C4, H1
+
+Product:       TradeBook — the live book for funeral trade work
+Surfaces:      tradebook.co · app.tradebook.co · PWA (Add to Home Screen)
+               Expo app (apps/mobile) when TestFlight exists. No Capacitor.
+GTM geography: Birmingham–Jasper–Huntsville–Montgomery corridor.
+               Recruit in that corridor. Browse from anywhere.
+Product geo:   United States (50 states + DC). Do not revert the state list.
+               Do not spend or recruit outside the corridor until it awards weekly.
+Seats:         Home $29/mo or $290/yr · Vendor same
+               Founding vendor $149 yr 1 (first 25, hard cap)
+               First-10 homes: comped 90 days. Do not invoice day 15 into an empty book.
+               Hide Priority +$29 until a city has 3 vendors in one specialty.
+Job fee:       10% of the BID, ON TOP. Min $15. Max $150.
+               $400 bid → home pays $440, vendor keeps $400, book keeps $40.
+Handshake:     “We’ll settle direct” only AFTER a first Pay-on-TradeBook charge.
+               Does NOT refund the book fee. Do not sell it as the free way.
+Status:        App live. Stripe TEST mode. Marketing site still on waitlist —
+               take the waitlist down the morning sit-downs start.
+               First-10 roster mostly filled (see §8). #10 still unnamed.
+               Quo number NOT purchased yet.
+               Monday 7am CT scoreboard calendar exists.
+               AFDA Gmail draft unsent — send only after 3 sit-downs.
+
+THE ONE RULE
+TradeBook is a two-sided marketplace, not a consumer app.
+One city with 8 homes posting and 6 vendors bidding beats 80 accounts
+sprayed across three states with zero awards.
+Density first. Ads second. App Store last.
+
+
+1. WHAT WE ARE ACTUALLY LAUNCHING
+TradeBook is not a finance app, not a family funeral-home finder, and
+not a Red Book clone. Funeral homes and cemeteries post work. Vendors
+bid price + ETA + method (on-site or mail-in) as one offer. The home
+awards. Cheapest is a sort, never an automatic award.
+
+Job types (do not add more at launch): equipment repair / PM, removal /
+transfer, trade embalming, vault / outer burial container, crematory
+(retort), cooler / refrigeration.
+Do not list grounds / landscaping until a cemetery actually posts it.
+
+Live today: tradebook.co (waitlist — kill it when sit-downs start) and
+app.tradebook.co (Apple + email sign-in, jobs, bids, award, Stripe seats
+in TEST mode, Pay-on-TradeBook in TEST mode). Native is Expo already.
+Do not start a Capacitor wrap. Repo: blackthorn1010/tradebook.
+Branch: grok/tradebook-platform. Brand rules: docs/TRADEBOOK.md.
+
+Success is NOT: App Store ranking, a national list, a TikTok audience,
+or mixing TradeBook with Death Care Repair so vendors think this is
+Standridge’s lead desk.
+
+Success IS:
+- Week 4: 12 homes + 12 vendors in overlapping corridor cities + 3 real awards
+- Week 8: still running only if ≥ 8 real awards total
+- 100 users: a living book in the Birmingham–Huntsville–Montgomery
+  corridor, weekly awards. Slip the week if awards are yellow.
+- 1,000 users (later chapter, not a 2026 promise): dense AL plus real
+  clusters in TN and GA, ~400 paying seats
+
+
+2. WHO THE CUSTOMER IS
+
+DEMAND — funeral homes and cemeteries
+Primary ICP: owner/manager of an independent family funeral home in the
+corridor, 1–3 locations, already uses outside removal and/or trade
+embalming. Decision maker still answers the shop phone.
+Secondary: cemetery superintendent (vault / lowering-device / grounds).
+Care centers and trade embalmers who also post work.
+
+Trigger moments: first call at 2 a.m. with no staff on the road;
+embalmer out sick; Portiboy down before a viewing; vault company
+no-show; cooler alarm.
+
+Anti-persona: SCI / Dignity corporate procurement. Families looking
+for a funeral home. Anyone you would have to fly to sit with.
+A Dignity cemetery super (Elmwood) may still get the TradeBook script.
+That is not “SCI is on the book.”
+
+SUPPLY — recruit vendors in a city BEFORE you lean on homes
+1. Removal / transfer     (liquidity engine)
+2. Trade embalmer
+3. Equipment tech         (TJ is vendor #1 here)
+4. Vault / outer burial container
+5. Crematory / retort
+6. Refrigeration / body coolers
+
+How they buy software: (1) someone they trust in the prep room,
+(2) association floor / district meeting, (3) a text from another
+director, (4) a vendor they already use saying “post it on the book,”
+(5) Google when a machine is down or they need a removal tonight.
+0–100 spends almost everything on 1–4. Paid search only on 5.
+
+LAUNCH TAM
+Alabama          ~300–450 homes     Corridor first. 0–100 battlefield.
+Tennessee        ~400–410           Open a pod after corridor awards weekly.
+Georgia          ~420–580           Atlanta-perimeter last, not first.
+Triangle total   ~1,200–1,400 homes plus removals, trade embalmers, vault, techs
+United States    ~15,000–19,000     Product accepts the account. GTM ignores
+                                    until AL+TN+GA have overlapping density.
+
+
+3. BRAND SPLIT — NON-NEGOTIABLE
+Vendors will not join a competitor’s lead desk.
+
+Public board / PWA / homepage   TradeBook. Tagline: The live book for funeral trade work.
+Footer / support                hello@tradebook.co and support@tradebook.co only
+Repair company                  Standridge / Death Care Repair. Separate site, ads, phone, X.
+Gumroad kits                    Service Ops. Not on the TradeBook homepage.
+TJ on the book                  Vendor account as equipment tech. Correct.
+                                Do NOT put Standridge on the homepage.
+
+Voice: say it like a director on the phone. Short. Use “trade work,”
+“first call,” “award,” “bid.” Never “AI-powered,” “revolutionize,” or
+“mortuary marketplace” as the H1. Never put mechanic45, Death Care
+Repair, or Standridge on tradebook.co or the PWA mark.
+
+Facebook groups that already know TJ may say “I’m on it as a vendor
+for equipment. Homepage does not run through my shop.” That sentence
+never goes on the marketing site. Write a second FB paste that names
+no shop.
+
+
+4. PHONE LINE VS GROK AGENT — BOTH, NOT EITHER
+Do NOT use (205) 681-9122 as the TradeBook number.
+That is the emergency repair line.
+
+Get a TradeBook number this week: Quo (formerly OpenPhone), Starter,
+~$15/mo annual or $19/mo monthly. One local 205 or 256 number.
+Name on the line: TradeBook. Shared inbox. SMS. After-hours greeting.
+Do not buy a vanity “death-care” number. Do not forward to 681-9122.
+
+Hours: phone 7 a.m.–7 p.m. CT weekdays, Saturday 8–12.
+
+GROK AGENT handles — only after a system prompt is locked to this
+file + docs/TRADEBOOK.md, and cannot invent policy:
+how to post/bid/award · plans/trial/founding vendor
+· “Does cheapest auto-win?” → No
+· fee-on-top in plain English
+· Add to Home Screen · Stripe Connect how-to
+· after-hours how-to 24/7
+
+Until that prompt exists: phone + email are the front door.
+Do not put “chat with Grok” on the public site.
+
+HUMAN MUST TAKE: payouts, refunds, award disputes · handshake problems
+· first-call emergencies leaking into support
+· association/press/founding-vendor negotiation
+· anything that could become a lawsuit or a body in a van
+
+Routing: site + app chat → Grok first (after lock), escalate with transcript.
+Phone → human during published hours.
+hello@tradebook.co = partnerships (waitlist dies when sit-downs start).
+support@tradebook.co = tickets.
+Never put office@deathcarerepair.com on a TradeBook surface.
+
+LIVE ANSWER
+"TradeBook, this is TJ. Are you posting work or bidding?"
+Then stop talking.
+If they want a repair truck:
+"That’s a repair call. The shop line is 205-681-9122. This line is the book."
+
+AFTER-HOURS VOICEMAIL
+"You’ve reached TradeBook, the live book for funeral trade work.
+Text this number or use the app to post or bid. If this is a payout
+or a dispute, leave the job ID and we will call you back in the morning.
+If you asked for Standridge Repair by name, that is a different line —
+205-681-9122. Otherwise post the down machine on the book."
+
+MISSED-CALL SMS
+"TradeBook here. Post or bid at app.tradebook.co — or text the firm
+name and city. Payouts and disputes get a human next morning."
+
+Do not append 205-681-9122 on every SMS. Add it only when they asked
+for Standridge or a truck.
+
+
+5. PRE-LAUNCH — BEFORE YOU ANNOUNCE
+The app is already live. Do not wait for the App Store.
+Do wait until the book is not empty, support will not bounce,
+and a real card cannot double-pay.
+
+HARD GATES — no live card, no AFDA, no ads until these are done
+[ ] Payment races closed: double checkout, stale Checkout after award,
+    auto-release vs no-show, charge.refunded reverses Connect
+    (docs/CURSOR-REVIEW-2026-09-08.md C1–C4, H1).
+[ ] D14 live Stripe keys + price IDs.
+    D16 public business name TradeBook (not Standridge).
+    D18 webhooks: checkout.session.completed, payment_intent.succeeded,
+    charge.refunded, account.updated.
+[ ] DEMO_ACCOUNTS_ENABLED=false. Demo / seed / is_test rows off the public board.
+[ ] Delete-account control visible in Settings (API already exists).
+    Privacy + terms on the same origin the PWA loads
+    (app.tradebook.co today; tradebook.co after D20).
+[ ] Terms match the shipped book: fee on top, handshake after first
+    on-platform charge and no fee refund, no escrow of remains,
+    no workmanship guarantee, not a funeral director, not a carrier.
+    Stripe reserve held before live Connect payouts.
+    Platform is liable for chargebacks.
+[ ] Grok support prompt locked, or chat stayed off.
+
+THIS WEEK — HUMAN
+[ ] Open Quo. 205/256 number. Record greeting. Put number on
+    tradebook.co, app footer, future store listing. NOT on deathcarerepair.com.
+[ ] Confirm hello@ and support@ land in an inbox you check.
+[ ] Take the waitlist down. Primary CTA → app.tradebook.co.
+    tradebook.co/privacy must serve the real policy, not the waitlist page.
+[ ] Add to Home Screen works on a real iPhone and a real Android.
+    Awarded-to-you copy visible to the winner.
+[ ] One fake Birmingham → Jasper removal already on the book.
+[ ] TJ vendor account complete. Connect in TEST first; redo on live keys.
+[ ] Comp First-10 homes 90 days (billing_status=comped).
+[ ] Hide Priority +$29 until a city has 3 vendors in one specialty.
+[ ] Google Search Console on tradebook.co and app.tradebook.co.
+[ ] Do NOT create a TradeBook Google Business Profile yet.
+[ ] Slot #10 named from a person you have stood next to, or dropped.
+    Do not invent.
+
+
+6. GOOGLE BUSINESS PROFILE
+Death Care Repair already deserves a GBP. Keep it. Do not rename it
+TradeBook. Do not add TradeBook as a second category on it.
+
+TradeBook is software. GBP is optional after the corridor is green,
+not the 0–100 engine. Directors Google the job, not the brand:
+"trade embalmer Birmingham" · "funeral removal Huntsville"
+"embalming machine repair Alabama"
+
+IF you create a TradeBook GBP later:
+Name              TradeBook
+Primary category  Software company
+Secondary         Business-to-business service
+Address           Hide it. Service-area business.
+Service area      Alabama, Tennessee, Georgia
+Website           https://tradebook.co
+App               https://app.tradebook.co
+Phone             Quo TradeBook number. NEVER 205-681-9122.
+Email             hello@tradebook.co
+Hours             Software 24 hours. Support 7 a.m.–7 p.m. CT weekdays.
+
+GBP description:
+"TradeBook is the live book for funeral trade work. Funeral homes and
+cemeteries post a removal, trade embalming, or a down machine. Vendors
+bid price, arrival time, and on-site or mail-in. The home awards the
+work. Lowest price is a sort, never an automatic award."
+
+Photos: TB mark, one job card (fake Birmingham → Jasper), one screen
+that says “Awarded to you.” No Standridge truck. No Frigid shots.
+
+Web footprint that matters:
+- tradebook.co — marketing. Waitlist down when sit-downs start.
+  Primary CTA → app.tradebook.co
+- City pages later, not now: /al/birmingham, /al/huntsville
+  Only after that city has vendors.
+- Apple Business Connect when a store listing exists.
+
+
+7. APP STORE, PLAY, AND THE PWA
+Ship now: PWA + Add to Home Screen. One-tap card after first login.
+Apple Sign-In stays.
+
+Ship later: Expo TestFlight (D11) for internal testers.
+Do not start a Capacitor project. Do not rebuild as a second app.
+Do not submit to the stores until the corridor scoreboard is green.
+
+STORE FIELDS (when that day comes — use docs/STORE-LISTING.md)
+Name         TradeBook
+Subtitle     Live funeral trade book
+Category     Business. Never Finance.
+Age          17+
+Keywords     funeral, trade embalming, removal, crematory, vault, funeral home, death care
+Support      https://tradebook.co + support@tradebook.co + Quo number
+Privacy      Same HTTPS origin the wrapper loads
+Screenshots  Post job · bid card with price+ETA+method · Awarded to you
+
+Review notes: account deletion on same origin. Do not mention Death
+Care Repair. Do not claim escrow, licensed brokerage, or cheapest wins.
+
+REPO GAP BEFORE STORE SUBMIT
+No deathcarerepair.com or office@deathcarerepair.com in anything a
+reviewer can open. Callbacks must be app.tradebook.co.
+
+
+8. THE 0–100 PLAN — DENSITY, NOT REACH
+Time box: 12 weeks.
+Geography we recruit in: Birmingham–Jasper–Huntsville–Montgomery.
+Everything else may browse. It is a rumor as a GTM motion until this
+corridor awards work every week.
+
+FIRST 10 — REAL NAMES (independents first)
+SCI Ridout stays on the DCR repair list, not this script —
+except Elmwood as a cemetery super, TradeBook script only.
+
+ #   Kind             Firm                         Ask for                         Phone            City              Note
+ 1   Funeral home     Smith & Gaston               Paul Gardner                    (205) 322-3581   Birmingham        Sit-down #1
+ 2   Funeral home     Currie-Jefferson             Buffy Johnston / Phil Currie    (205) 987-0068   Hoover            Same owner as #8
+ 3   Funeral home     Deerfoot Memorial            Kari Minyard                    (205) 655-3444   Trussville
+ 4   Funeral home     Davenport & Harris           Rev. LaChaune Nicole Slater     (205) 252-2103   Birmingham
+ 5   Funeral home     Spry                         Chris Martin / Susan Spry Padot (256) 536-6654   Huntsville        One trip with #6
+ 6   Funeral home     Laughlin Service             John R. Purdy / Sarah Chappell  (256) 534-2471   Huntsville
+ 7   Cemetery         Elmwood Cemetery             Phyllis Pesseackey              (205) 251-3114   Birmingham        Dignity. Script only.
+ 8   Cemetery         Jefferson Memorial Gardens   Phil Currie / cemetery super    (205) 322-0543   Birmingham        One relationship with #2
+ 9   Removal          Stateline Mortuary Transport Owner / dispatcher — CONFIRM    (256) 456-9654   Birmingham area   Confirm they still run removals
+10   Trade embalmer   YOU FILL or drop             —                               —                Alabama           Do not invent.
+
+Emails on file:
+Smith & Gaston  smithandgaston@gmail.com
+Spry            spryfuneralhome@gmail.com
+Laughlin        info@laughlinservice.com
+Stateline       info@statelinemortuary.com
+
+#9: confirm they still run removals before you roll.
+#10: do not invent. Williams Service / Aubrey Jason Bushelon
+(Tuscaloosa) is only a starting ask if you already know them.
+If unnamed by Monday, run nine sit-downs. Do not keep a fake line.
+
+Comp these ten homes 90 days. Do not collect $29 on day 15 into an empty book.
+Currie-Jefferson + Jefferson Memorial = two firms, one owner. Count both,
+do not pretend they are two density points.
+
+SIT-DOWN SCRIPT — 10 minutes — say the job is fake out loud
+1. They open app.tradebook.co. They are the facility. You are the vendor.
+2. They post: removal / transport · pickup Birmingham · dropoff Jasper
+   · needed tonight · note “call 15 minutes out.”
+3. You bid price + ETA + on-site as ONE offer. Not price alone.
+4. They click Award this bid. The app must not pick cheapest.
+5. You refresh. You must see the words “Awarded to you.”
+6. Stop. No card. No App Store speech.
+   Ask: “Would you post a real first call the same way?”
+
+Vendor sit-downs (#9–10): reverse the chairs. You post. They bid.
+You award. They must see “Awarded to you.”
+
+PASS: fake job posted, one bid with price+ETA+method, human award click,
+winner sees Awarded to you.
+FAIL: they think cheapest won; winner only sees generic Awarded; you took a payment.
+
+WEEK 1–2
+- Run the ten sit-downs (or nine if #10 is still unnamed).
+- Close founding vendors in the CORRIDOR in parallel.
+  Target 8 of 25 in two weeks, not 15 across three states.
+- Standridge is vendor #1 as equipment tech. Homepage still silent.
+- Pull 30 names from the warm corridor list. Do not email 300.
+
+WEEK 3–6
+- Goal: 8–20 REAL awards, not demos. Week 4 checkpoint is 3.
+- After every award, send the three-line forward that day.
+- 30 homes from the warm list. Ride-alongs on repair days.
+- Scoreboard every Monday 7 a.m. CT.
+
+WEEK 7–12
+- Shape at 100 users: ~40 homes + 40 vendors + 20 other.
+  Overlapping cities. Not 100 people who never meet on a job.
+  Slip the week if awards are yellow.
+- Exact-match Google Search only after 3+ awards in a week.
+  Pause if cost per paid seat exceeds $290.
+- Association newsletter ask after three sit-downs.
+  No booth until 2027 Mid-Winter.
+- Stop adding cities. Organic Mobile/Nashville can browse.
+  Do not recruit there yet.
+
+SCOREBOARD — GREEN / YELLOW / RED
+Metric                         Green        Yellow       Red
+Awards / week in corridor      5+           2–4          0–1
+Bids per open job              3+           1–2          0
+Open jobs with 0 bids > 24 h   0            1–2          3+
+Time to first bid              < 4 h        same day     next day
+Founding slots left (corridor) ≤10          11–20        25 still open
+Paid or comped seats corridor  25+          10–24        <10 after week 8
+Connect-ready (before live pay) all winners  1 waiting    awarded + unpaid + no Connect
+Support first-response         <2 hours     same day     overnight how-to tickets
+
+KILL CRITERION
+If week 8 has fewer than 8 real awards total, stop talking about
+1,000 users. Fix award flow, sit with two more directors, do not buy ads.
+
+
+9. THE 100–1,000 PLAN — COPY THE CLUSTER
+Do not start this chapter until the Birmingham corridor has visible
+weekly awards. 1,000 users ≠ 1,000 paying seats. Plan ~400 paying +
+browsers. Not a 2026 date.
+
+CITY PODS, IN THIS ORDER
+Pod                          When                      Minimum before you spend
+Chattanooga / north GA line  After corridor is green   8 homes + 6 vendors
+Knoxville                    Next                      8 + 6
+Nashville / middle TN        Next                      8 + 6
+Columbus / Macon             Next                      8 + 6
+Mobile / south AL            Next                      8 + 6
+Atlanta perimeter            Last in v0                12 + 10
+
+Do NOT recruit FL / MS / LA / KY even though the repair truck already
+rolls those states. If a firm there creates an account, they can post.
+You do not fly to sit with them.
+
+FLYWHEEL
+- Every awarded vendor invites two peers in the same specialty and city.
+- Every awarded home forwards the three-line text to one director they trade with.
+- Founding vendor cap closes. Offer becomes $290/yr + optional priority
+  +$29 only in cities that already have 3 vendors in that specialty.
+- One part-time closer (retired director / sales-minded embalmer) for the next pod.
+- Book 2027 AFDA Mid-Winter and next TFDA / GFDA booth now.
+- Trade press only after awarded-job screenshots with permission.
+
+PAID ACQUISITION — TINY, EXACT, KILLABLE
+Separate Google Ads campaign. TradeBook landing page.
+Never send TradeBook traffic to deathcarerepair.com.
+
+Exact match only, and only after 3+ awards in a week:
+  trade embalmer Birmingham
+  funeral removal service Huntsville
+  embalming machine repair Alabama
+
+Add Nashville / Atlanta keywords only when that pod is live.
+
+Budget $20–40/day per live pod. One pod at a time.
+Landing: tradebook.co with the city in the headline. CTA = create account.
+Pause a keyword if cost per paid seat > $290, or if the city has no vendors.
+No PMax, YouTube, Display, X Ads, TikTok, or ASA until 20 real awards exist.
+
+UNIT ECONOMICS
+Stage                       Paying seats        Seat MRR           What it funds
+0–100 users                 15–40 (many comped) $400–$1,200        Quo, domain, Stripe, TJ’s time
+100 users, corridor live    40–60               $1,200–$2,000      Ads test + closer days
+~400 paying / 1,000 users   400                 $12,000–$18,000    Closer + 2027 booth + support
+
+Seat mix: ~60% monthly $29, 40% annual $290 (~$24/mo recognized).
+Founding $149 is year-one CORRIDOR supply bait. Do not extend past 25.
+A $400 removal = $40 to the book on top of the bid (home paid $440).
+Handshake after a first on-platform charge does not refund that fee.
+Do not nag a home who already paid once. Do not skip the fee.
+Hold a Stripe reserve before live Connect payouts.
+
+
+10. CHANNEL PLAYBOOK AND COPY
+
+CHANNEL RANK
+1  Prep-room sit-down on a repair call     Trust already exists. Highest close.
+2  Text from a director who just used it   How this industry actually moves.
+3  Founding-vendor personal ask            Corridor only in weeks 1–6.
+4  AFDA / TFDA / GFDA newsletter           After 3 sit-downs. 2026 conventions missed.
+5  Private Facebook mortician groups       Peer tone only. No ads-looking posts.
+6  Exact-match Google Search               After weekly awards. Down-machine moment.
+7  Trade press classified                  After screenshots exist.
+8  Native App Store listing                Trust + icon. Not how they find you.
+
+FOUNDING VENDOR SMS
+"Opening TradeBook in the Birmingham–Huntsville corridor. Homes post a
+removal, trade embalming, or down machine. You bid price + when you can
+be there + on-site or mail-in. Home picks. Cheapest does not win by
+itself. Your bid is what you keep. First 25 vendors $149 for year one.
+I have corridor slots left. app.tradebook.co"
+
+FOUNDING VENDOR EMAIL
+Subject: First 25 on the book — $149 for the year
+
+I'm opening TradeBook. Funeral homes post a removal, a trade embalming,
+or a down machine. You bid price, when you can be there, and on-site or
+mail-in. The home picks. Cheapest does not win by itself. Your bid is
+what you keep; the home pays the bid plus the book fee.
+
+First 25 vendor accounts are $149 for year one, then $290. Browse stays
+free. 14 days to try it.
+
+app.tradebook.co — reply with the city you cover and I’ll put you on.
+
+TJ
+hello@tradebook.co
+
+CANTRELL’S / COMPETING EQUIPMENT SHOP — BRAND-CLEAN ONLY
+"TradeBook is a live book, not my shop’s lead desk. Homes post work.
+Any vendor can bid. I bid equipment jobs as one vendor on the list.
+You would too. First 25 seats are $149 year one. app.tradebook.co"
+
+HOME “POST THE FIRST CALL” TEXT
+"When you need a removal or a trade embalmer and you don’t want to burn
+three voicemails, post it on TradeBook. Vendors bid price, arrival, and
+how they’ll do it. You award. Nobody auto-picks the cheap one.
+app.tradebook.co — 14 days free. First homes on the corridor book are
+comped 90 days."
+
+THREE-LINE FORWARD AFTER THE FIRST REAL AWARD
+"Used TradeBook on a [removal / trade embalming / down machine] in
+[city]. Posted it, saw bids with arrival times, picked who I wanted.
+If you want on the book: app.tradebook.co"
+
+ASSOCIATION INTRO — AFDA FIRST, AFTER THREE SIT-DOWNS
+Ken Hammock, AFDA, 7 Clayton St Ste 201, Montgomery.
+334-659-8400. info@alabamafda.org
+TFDA: Office@tnfda.org
+GFDA: staff@gfda.org
+
+Subject: Member tool — live book for trade work
+
+Ken — I’m TJ Standridge. We built TradeBook for funeral homes to post
+a first call, a trade embalming, or a down machine and see bids with
+price, arrival, and method. The home awards. It is not a directory and
+it is not a family finder. Directors in the Birmingham area are already
+posting.
+
+If a short note in the member email is appropriate, I’ll send an
+80-word blurb and a link. No booth ask for 2026.
+
+TJ Standridge
+hello@tradebook.co
+app.tradebook.co
+
+80-WORD BLURB IF THEY SAY YES
+"TradeBook is the live book for funeral trade work. Post a first call,
+a trade embalming, or a down machine. Vendors bid price, arrival time,
+and on-site or mail-in. The home awards. Lowest price is a sort, never
+an automatic award. Your bid is what you keep. 14 days free. Browse
+stays free. app.tradebook.co"
+
+FACEBOOK GROUP POST — PEER TONE (groups that already know TJ)
+"For directors in Alabama who are tired of playing phone tag on a
+first call or a trade embalming. TradeBook is a live book: you post the
+work, vendors bid price + when they can be there + on-site or mail-in,
+you pick. Cheapest does not auto-win. I’m on it as a vendor for
+equipment. Homepage does not run through my shop. app.tradebook.co"
+
+FACEBOOK GROUP POST — ANYONE ELSE CAN PASTE
+"For directors tired of playing phone tag on a first call or a trade
+embalming. TradeBook is a live book: you post the work, vendors bid
+price + when they can be there + on-site or mail-in, you pick.
+Cheapest does not auto-win. app.tradebook.co"
+
+45-SECOND FOUNDING-VENDOR VOICEMAIL
+"This is TJ. I’m opening TradeBook for funeral trade work. Homes post
+a first call, a trade embalming, or a down machine. You bid the price,
+when you can be there, and on-site or mail-in. The home picks. Cheapest
+does not win by itself. First twenty-five vendors are one forty-nine
+for the year. Reply to this text with your city and I’ll put you on.
+The book is app.tradebook.co."
+
+
+11. CUSTOMER SERVICE FROM MINUTE ONE
+
+Channel                    Hours                              Owner
+In-app / site chat (Grok)  24/7 after prompt lock             Agent, escalate with transcript
+SMS to Quo number          24/7 intake, human 7–7 CT          Agent how-to; human if tagged
+Voice                      7 a.m.–7 p.m. CT wkdays; Sat 8–12  Human
+support@tradebook.co       Same-day on weekdays               Human
+hello@tradebook.co         Partnerships                       Human
+
+MACROS
+
+Does cheapest win?
+"No. You see price, arrival time, and on-site or mail-in together.
+You click Award on the bid you want. The book will not pick for you."
+
+What does it cost?
+"Browse stays free. 14 days free from the day you create the account.
+After that: $29 a month or $290 a year to post or bid. First 25 vendors
+pay $149 for year one. First homes we sit with are comped 90 days.
+Priority listing is an extra $29 a month, only in cities that already
+have several vendors, and is not required to bid."
+
+What does the home pay on a job?
+"The bid plus the book fee. Ten percent of the bid, at least $15, at
+most $150. A $400 removal is $440 on the card. The vendor keeps the
+$400 they bid."
+
+I don’t want to pay on TradeBook
+"After a first Pay-on-TradeBook charge, you can use We’ll settle direct
+on later jobs. That does not refund the fee you already paid. Award
+still stands."
+
+Vendor has not connected payouts
+"Award still stands. Pay on TradeBook waits until the vendor finishes
+Stripe Connect. We email them."
+
+Refund
+"Before payout lands: request it on the job (or we close no-show /
+cancel, which refunds). After payout: email support@tradebook.co with
+the job ID. We do not hold remains and we do not guarantee the work.
+We reverse the book payment when the facts support it."
+
+Add to Home Screen
+"iPhone: Safari → Share → Add to Home Screen.
+Android: Chrome → menu → Add to Home Screen.
+That’s the app until the store listing ships."
+
+Wrong company
+"If a machine is down and you want Standridge Repair on the truck,
+call 205-681-9122. This line is TradeBook only."
+
+SLAs
+- How-to chat: under 2 minutes (agent), after prompt lock
+- Human ticket: under 2 hours during published hours
+- Payout / dispute: same-day acknowledgment, 2 business days to a decision
+- First-call emergency that leaked in: CALL them back. Do not chat a body in a van.
+
+
+12. WEEKLY OPERATING RHYTHM
+Monday 7 a.m. CT — scoreboard (calendar event already exists).
+  New homes, new vendors, jobs, bids/job, awards, paid + comped seats,
+  corridor awards, founding slots left, 0-bid jobs > 24 h,
+  Connect-not-ready winners, refund requests, support backlog,
+  demo rows still visible.
+Every repair day — one sit-down from the roster. Ten minutes.
+Friday — two founding-vendor follow-ups (corridor) and one
+  association/group post, not five.
+When a real award happens — send the three-line forward that day.
+Do not add a marketing channel the same week awards are red.
+
+
+13. WHAT NOT TO DO
+- Spray three states before one city awards weekly.
+- Put Death Care Repair, Standridge, or mechanic45 on TradeBook surfaces.
+- Use 205-681-9122 as the TradeBook number, or put it on every voicemail.
+- Auto-award cheapest. Ever.
+- Tell a home handshake is free or that they pay only the bid.
+- Take a live card before C1–C4 / H1 and D14 / D16 / D18.
+- Leave demo logins on the public book.
+- Spend on X, TikTok, Display, or consumer ASO before 20 real awards.
+- Promise escrow of remains or a workmanship guarantee.
+- Recruit FL / MS / LA / KY because the truck already goes there.
+- Wait on the App Store to start the First-10 sit-downs.
+- Start a Capacitor project. Expo already exists.
+- Buy a national funeral-home list and cold-email it.
+- Let the founding-vendor cap silently float past 25.
+- Fill founding 25 with out-of-corridor DCR customers to feel like you launched.
+- Send the AFDA draft before three sit-downs.
+- Sell Priority on an empty directory.
+
+
+14. FIRST SEVEN DAYS — EXACT ORDER
+Mon   Quo number live. Greeting recorded. support@ and hello@ confirmed.
+      Waitlist CTA flipped to Open the book. Hard-gate list printed.
+      First-10 roster — start booking sit-downs. Do not take a live card.
+Tue   Founding-vendor list of 25, corridor-weighted.
+      Send the first 10 texts to people who can bid a Birmingham or
+      Huntsville job this month. TJ vendor account complete in TEST mode.
+Wed–Thu  Three sit-downs. Fake job. Award click. Ask the real-first-call question.
+      Suggested: Smith & Gaston, Currie-Jefferson + Jefferson Memorial
+      (one owner), Deerfoot.
+Fri   Three more sit-downs. Two corridor founding-vendor closes.
+      Scoreboard in writing.
+      Suggested: Davenport & Harris, Elmwood (TradeBook script only).
+Sat   Phone covered 8–12. One group post, peer tone.
+      Huntsville pair: Spry + Laughlin on one trip.
+Next week  Finish #9 (confirm Stateline) and #10 (name or drop).
+           Do not announce nationally. Do not buy ads.
+           Do not send AFDA until three sit-downs are done.
+
+
+15. FOUNDING 25 — NAMED SO FAR
+Cap is hard. $149 year one, then $290. Do not let it float past 25.
+
+CORRIDOR FIRST (weeks 1–6) — text these
+Slot  Specialty         Firm                         City              Note
+ 1    Equipment tech    Standridge Death Care Repair Cleveland, AL     You. Homepage stays silent.
+ 2    Removal           Stateline Mortuary Transport Birmingham area   Confirm first
+ 3    Removal / burial  Nichols Burial Service       Fayette, AL       Confirm they will bid Birmingham
+ 4    Equipment tech    Cantrell’s Sales LLC         Birmingham, AL    Brand-clean pitch only
+ 5–25 YOU FILL          Removals and trade embalmers in BHM / HSV / MGM
+                        Not a Death Care Repair customer list.
+
+WAIT FOR THEIR POD — do not text in week 1
+Firm                         City              Pod
+Doric of Tennessee           Cowan, TN         Knoxville / middle TN later
+Champion Rogers Vault        Pine Mountain, GA Columbus / Atlanta-perimeter later
+Lindley Vaults               Douglasville, GA  Atlanta-perimeter later
+Heritage Cremations          Elizabethton, TN  Knoxville later
+Gravitas Transport           Grovetown, GA     Columbus / Atlanta later
+
+Warm DCR customers are easy. An empty Birmingham book is not worth their $149.
+
+
+BOTTOM LINE
+Launch is not an App Store event. Launch is the week an Alabama
+director posts a real first call, a vendor they do not already have
+on speed-dial bids price plus arrival, and the home clicks Award.
+
+Get the separate phone.
+Keep Grok off the public site until the prompt cannot lie about fees.
+Keep Standridge off the homepage.
+Do not take a live card until the money paths cannot double-pay.
+Smith & Gaston is sit-down #1.
