@@ -1,0 +1,698 @@
+Claude Launch plans
+TRADEBOOK — A-TO-Z LAUNCH PLAN (REV 2)
+From first accepted removal to a liquid corridor
+Revised: 8 September 2026
+Owner: TJ Standridge · Cleveland / Birmingham, AL
+
+Product:     TradeBook — the live book for funeral trade work
+Surfaces:    tradebook.co · app.tradebook.co · PWA (Add to Home Screen)
+Geography:   Birmingham–Jasper–Huntsville corridor ONLY for 90 days.
+             AL/TN/GA is the v0 boundary, not the v0 target.
+Categories:  Removal/transfer + trade embalming ONLY for 90 days.
+             All other job types are browse-only until removals award weekly.
+Pricing:     PHASE 0 (now → corridor green): FREE both sides. No seat fee.
+             Revenue = 10% book fee on Pay-on-TradeBook only. Min $15 / max $150.
+             PHASE 1 (after corridor green): vendors $29/mo or $290/yr.
+             HOMES STAY FREE PERMANENTLY. Founding 25 = free now, $149 locks year two.
+Status:      App live. Marketing site on waitlist. First-10 roster filled.
+             Quo number NOT purchased. Instant-accept lane NOT built (blocker).
+             Founding 25 list must be rebuilt (see §9).
+
+THE ONE RULE
+TradeBook is a two-sided marketplace, not a consumer app.
+Liquidity is per category, per metro, per time window — not per state.
+Eight Birmingham homes posting removals and six removal vendors accepting
+beats 80 accounts across three states and seven job types with zero awards.
+Narrow the unit until you can win it. Density first. Ads last.
+
+THE SECOND RULE
+Speed is the product for urgent work. A director with a body in a nursing
+home at 2 a.m. will not wait for three bids. If the book cannot beat his
+speed-dial, the book loses — no matter how good the pricing screen is.
+
+
+1. WHAT WE ARE ACTUALLY LAUNCHING
+Funeral homes and cemeteries post trade work. Vendors respond. The home
+decides. Cheapest is a sort, never an automatic award.
+
+TWO LANES — THIS IS THE CORE PRODUCT CHANGE
+
+  URGENT LANE (first call / removal / cooler down / machine down before a viewing)
+  - Vendor sets a standing rate + coverage radius once, at signup.
+  - Home posts. Qualified vendors get a push/SMS. First to ACCEPT takes it.
+  - Home confirms with one tap. Target: accepted in under 10 minutes.
+  - No auction. No waiting. Home can still decline and re-open.
+
+  BID LANE (trade embalming, scheduled transport, PM, vault, equipment)
+  - Post → vendors bid price + ETA + method (on-site / mail-in) as ONE offer.
+  - Home clicks Award. App never auto-picks cheapest.
+  - This is the existing flow and it is good. Keep it.
+
+THE RECORD (why they come back)
+Every job — sourced on TradeBook or not — produces a record: who, when,
+price agreed, ETA met or missed, custody handoff timestamped, photo/POD,
+signature, exportable invoice and 1099-ready totals.
+Homes may log a direct-called job on TradeBook for free. This is deliberate.
+The book must be useful on job #2 even when they already know the vendor.
+If TradeBook is only a matching screen, we die at 40% repeat.
+
+LIVE CATEGORIES (90 days):    removal/transfer · trade embalming
+BROWSE-ONLY (waitlist):       equipment repair/PM · vault/OBC · crematory ·
+                              cooler/refrigeration · grounds/landscaping
+Open a browse-only category in a metro only when 3+ vetted vendors in that
+category are live there.
+
+Repo: blackthorn1010/tradebook. Brand rules: docs/TRADEBOOK.md.
+Demo script: docs/FIRST-10-DEMOS.md. Award rule: docs/AWARD-FLOW.md.
+NEW required doc: docs/URGENT-LANE.md (standing rates, accept, confirm, decline).
+
+SUCCESS IS NOT: App Store ranking, a national list, signup counts,
+or mixing TradeBook with Death Care Repair.
+
+SUCCESS IS:
+- Week 4:  8 homes + 6 vendors + 3 REAL awards, Birmingham metro only
+- Week 12: median accept time under 10 min, fill rate 80%+, 30-day repeat 40%+
+- 100 users: living book in Birmingham–Huntsville, weekly awards, corridor green
+- 1,000 users: dense AL + real clusters in TN/GA. Treat as a 24–36 month
+  number, not a year-one number. See §10 for the honest math.
+
+
+2. WHO THE CUSTOMER IS
+
+DEMAND — funeral homes and cemeteries
+Primary ICP: owner/manager of an independent family funeral home in the
+Birmingham–Jasper–Huntsville corridor, 1–3 locations, already uses outside
+removal and/or trade embalming. Decision maker still answers the shop phone.
+Secondary: cemetery superintendent. Care centers and trade embalmers who post.
+
+Trigger moments: first call at 2 a.m. with no staff on the road; embalmer out
+sick; Portiboy down before a viewing; vault no-show; cooler alarm.
+
+Anti-persona: SCI / Dignity corporate procurement. Families. Anyone outside
+the corridor in the first 90 days.
+
+SUPPLY — recruit vendors in a metro BEFORE you lean on homes
+90-DAY SUPPLY LIST IS TWO ITEMS LONG:
+  1. Removal / transfer     (liquidity engine — most of the effort goes here)
+  2. Trade embalmer
+Everything else is a waitlist, including equipment techs. TJ holds a vendor
+account as equipment tech but equipment jobs stay browse-only in v0.
+
+How they buy: (1) someone they trust in the prep room, (2) association floor,
+(3) a text from another director, (4) a vendor they already use saying
+"post it on the book," (5) Google when a machine is down.
+0–100 spends almost everything on 1–4. Paid search only on 5, and only after
+20 real awards.
+
+VENDOR VETTING — REQUIRED BEFORE FIRST JOB (new, non-negotiable)
+No vendor accepts or bids until on file:
+  [ ] State license / registration number where the category requires one
+  [ ] Certificate of insurance — auto liability + general liability, current
+  [ ] Business name, EIN or SSN-on-file for payouts, service radius
+  [ ] Signed conduct terms: chain of custody, no subcontracting without notice
+Badge on profile: "License + insurance on file, verified [date]."
+This is trust infrastructure AND our answer to managed networks (§4).
+One bad handoff in death care is a news story. Do not skip this to hit a number.
+
+CORRECTED TAM (do not inflate these in a deck)
+Alabama          ~286 funeral homes, ~78 cemeteries
+Tennessee        ~400 homes (est.)
+Georgia          ~448 homes, ~113 cemeteries
+Triangle total   ~1,100–1,200 homes plus removals, trade embalmers, vault, techs
+Corridor (real 90-day target): ~60–80 homes within reach of Birmingham/Huntsville
+United States    ~15,400 funeral homes (NFDA). Irrelevant until the corridor is green.
+
+
+3. BRAND SPLIT — NON-NEGOTIABLE (unchanged, it is correct)
+Vendors will not join a competitor's lead desk.
+
+Public board / PWA / homepage   TradeBook. "The live book for funeral trade work."
+Footer / support                hello@tradebook.co and support@tradebook.co only
+Repair company                  Standridge / Death Care Repair. Separate everything.
+Gumroad kits                    Service Ops. Not on the TradeBook homepage.
+TJ on the book                  Vendor account, equipment tech, category not live in v0.
+                                Do NOT put Standridge on the homepage.
+
+SEALED BIDS — PUBLISH THIS RULE ON THE SITE
+Bids and standing rates are visible to the posting facility only. No vendor
+can see another vendor's price, ETA, or method. Ever. TJ included.
+FOUNDER RECUSAL: TJ does not decide any dispute on a job he bid or accepted.
+Those escalate to a named second reviewer. Name that person before launch.
+
+Voice: say it like a director on the phone. Short. Use "trade work," "first
+call," "accept," "award," "bid." Never "AI-powered," "revolutionize," or
+"mortuary marketplace" as the H1.
+
+
+4. COMPETITION — THE SECTION THAT WAS MISSING
+Know these cold. A director will name one in a sit-down.
+
+DeathCall (Nashville, 615) — the real threat.
+White-glove mortuary transport with proprietary dispatch software: real-time
+driver map, auto-assign to the closest available driver, third-party embalming
+and cremation providers selectable from a dropdown, consolidated billing.
+They are a managed network entering the same categories with auto-dispatch.
+They are already sitting in Pod #3 (Nashville / middle TN).
+OUR ANSWER: "DeathCall is a transport company with software. We are the book.
+Their drivers are their drivers — they take the margin and pick who goes.
+On TradeBook, any vetted vendor in your area can take it, you see the price
+and the ETA before you say yes, and you can use the removal service you
+already like. We are not competing for the job. We are the place the job lives."
+
+Red Book App — B2B funeral marketplace app, live on both stores since Dec 2017.
+OUR ANSWER: "Red Book is a directory. It tells you who exists. It does not
+tell you who can be at Cullman by nine tonight and for how much."
+
+MorTrack — chain-of-custody software for funeral homes, trade services and
+removal companies; integrates with Passare, Halcyon, SRS.
+NOTE: this validates The Record (§1). It is also the feature most likely to
+be copied at us. Ship the record fast and make it free.
+
+Funeral Fleet Pro — mortuary transport fleet/dispatch software.
+Single-fleet tool, not a marketplace. Not a direct threat, sometimes a channel.
+
+Never disparage any of them by name in writing. Answer the question, move on.
+
+
+5. PHONE LINE VS GROK AGENT — HOURS NARROWED
+Do NOT use (205) 681-9122. That is the emergency repair line.
+
+Get a TradeBook number this week: Quo, Starter, ~$15/mo annual.
+One local 205 or 256 number. Name on the line: TradeBook. Shared inbox. SMS.
+
+PUBLISHED HOURS — REVISED DOWN ON PURPOSE
+  Phone (human):     9 a.m.–5 p.m. CT, Mon–Fri. No Saturday phone.
+  SMS:               24/7 intake, human reply within published hours.
+  In-app chat:       24/7 agent.
+Do not publish a 7–7 plus Saturday promise you will break in week three while
+running sit-downs, founding-vendor closes and a repair truck. Under-promise,
+then answer at 11 p.m. anyway and look like a hero.
+
+GROK AGENT: how to post/bid/accept/award · standing rates · plans and trial ·
+"Does cheapest auto-win?" → No · Add to Home Screen · Stripe Connect · 24/7 how-to.
+
+HUMAN MUST TAKE: payouts, refunds, disputes · "we'll settle direct" problems ·
+first-call emergencies leaking into support · association/press/founding
+negotiation · anything that could become a lawsuit or a body in a van.
+
+LIVE ANSWER
+"TradeBook, this is TJ. Are you posting work or taking it?"
+Then stop talking.
+Repair truck ask: "That's a repair call. The shop line is 205-681-9122.
+This line is the book."
+
+AFTER-HOURS VOICEMAIL
+"You've reached TradeBook, the live book for funeral trade work. If you have
+a removal or a trade embalming right now, post it in the app — vendors get it
+on their phone and one of them accepts, usually inside ten minutes.
+app.tradebook.co. For a payout or a dispute, leave the job ID and we call you
+back during business hours. If a machine is down and you need Standridge
+Repair, that's a different line — 205-681-9122."
+
+MISSED-CALL SMS
+"TradeBook here. Post it at app.tradebook.co and a vendor accepts — usually
+under ten minutes. Or text the firm name and city and I'll set you up.
+Payouts and disputes get a human next business day. Repair truck: 205-681-9122."
+
+
+6. PRE-LAUNCH — BEFORE YOU RUN A SINGLE SIT-DOWN
+The app is live. The demo is not ready. Fix these first.
+
+BLOCKERS (do not book sit-downs until these are done)
+[ ] URGENT LANE SHIPPED. Standing rate at signup. Push/SMS to matching vendors.
+    Accept button. Home confirm. Timestamps visible. Under-10-minute target.
+[ ] Vendor vetting gate: license + COI upload, verified badge, hard block on
+    accepting or bidding until verified.
+[ ] Sealed-bid rule enforced in code AND written on the site.
+[ ] Seat billing OFF. Stripe seat products paused. Free-phase copy live everywhere.
+[ ] The Record v1: job log, timestamps, POD photo, signature, export/invoice.
+[ ] Payment races fixed (double checkout, refund vs Connect).
+[ ] Remove the permanent fake Birmingham → Jasper listing from the live book.
+    Replace with SANDBOX MODE — a demo toggle, clearly labeled "Demo job — not
+    real," visible only in the demo session. A live-looking fake on a book whose
+    whole pitch is honesty is a bad first impression.
+
+STANDARD
+[ ] Quo number live. Greeting recorded. hello@ and support@ confirmed.
+[ ] Privacy policy + account deletion on the same HTTPS origin as the app.
+[ ] Terms: no escrow of remains, no workmanship guarantee, 10% book fee with
+    floor/ceiling, handshake settle-direct allowed, vetting is verification of
+    documents not endorsement of work.
+[ ] Add to Home Screen verified on a real iPhone and a real Android.
+[ ] "Accepted — [vendor] is on the way" and "Awarded to you" copy both verified.
+[ ] Google Search Console on both origins.
+[ ] Do NOT create a TradeBook Google Business Profile yet.
+
+REPO GAPS BEFORE ANY STORE SUBMIT
+docs/APP_STORES.md and app/README.md still point OAuth/support at
+deathcarerepair.com / office@deathcarerepair.com. Callbacks must be
+app.tradebook.co. Support must be support@tradebook.co. Landing still says
+"The book for death care" and still shows old pricing. Fix before review.
+
+
+7. APP STORE, PLAY, AND THE PWA (largely unchanged)
+Ship now: PWA + Add to Home Screen. One-tap card after first login.
+Ship in 2–4 weeks: wrap the same URL in Capacitor. Do not rebuild native.
+Do not delay a single sit-down for Xcode.
+
+STORE FIELDS
+Name         TradeBook
+Subtitle     Funeral trade work
+Category     Business. Never Finance.
+Age          17+
+Keywords     funeral trade work, first call, trade embalming, removal service
+Support      https://tradebook.co + support@tradebook.co + Quo number
+Screenshots  Post a removal · vendor accepted with ETA · job record with custody log
+Review notes: account deletion on same origin. No mention of Death Care Repair.
+No claim of escrow, licensed brokerage, or cheapest-wins.
+
+
+8. THE 0–100 PLAN — ONE METRO, TWO CATEGORIES
+Time box: 12 weeks. Geography: Birmingham metro, then Huntsville.
+Jasper/Montgomery are spillover, not targets. TN and GA are rumors.
+
+FIRST 10 — REAL NAMES (unchanged roster, corrected slot 10 policy)
+ #   Kind             Firm                         Ask for                         Phone            City
+ 1   Funeral home     Smith & Gaston               Paul Gardner                    (205) 322-3581   Birmingham
+ 2   Funeral home     Currie-Jefferson             Buffy Johnston / Phil Currie    (205) 987-0068   Hoover
+ 3   Funeral home     Deerfoot Memorial            Kari Minyard                    (205) 655-3444   Trussville
+ 4   Funeral home     Davenport & Harris           Rev. LaChaune Nicole Slater     (205) 252-2103   Birmingham
+ 5   Funeral home     Spry                         Chris Martin / Susan Spry Padot (256) 536-6654   Huntsville
+ 6   Funeral home     Laughlin Service             John R. Purdy / Sarah Chappell  (256) 534-2471   Huntsville
+ 7   Cemetery         Elmwood Cemetery             Phyllis Pesseackey              (205) 251-3114   Birmingham
+ 8   Cemetery         Jefferson Memorial Gardens   Phil Currie / cemetery super    (205) 322-0543   Birmingham
+ 9   Removal          Stateline Mortuary Transport Owner / dispatcher — CONFIRM    (256) 456-9654   Birmingham area
+10   Trade embalmer   OPEN — corridor only         —                               —                Birmingham/Huntsville
+
+Emails on file: smithandgaston@gmail.com · spryfuneralhome@gmail.com ·
+info@laughlinservice.com · info@statelinemortuary.com
+#9: confirm they still run removals before you roll.
+#10: must be inside the corridor. Do not fill this slot with a Tuscaloosa or
+out-of-corridor name just to close it.
+
+SIT-DOWN SCRIPT — 10 MINUTES — SAY THE DEMO IS A DEMO OUT LOUD
+1. They open app.tradebook.co in sandbox mode. They are the facility.
+2. They post: removal, pickup Birmingham, dropoff Jasper, needed tonight.
+3. Their phone shows vendors notified. You accept from your device.
+4. They see "Accepted — [vendor], ETA 45 min" with a timestamp. Under a minute.
+5. Show the record: custody log, POD, exportable invoice.
+6. Then show the bid lane once, with a trade embalming, so they see price+ETA+
+   method as one offer and that the app does not pick cheapest.
+7. Stop. No card. No App Store speech. No pricing speech — it is free.
+
+THE CLOSE — THIS IS THE CHANGE THAT MATTERS
+Do NOT ask "would you post a real first call?"
+Say: "Next first call you need covered, post it. I will personally make sure
+somebody accepts inside ten minutes. If nobody does, I'll get on the phone and
+find you one myself, free. Try me once."
+Then concierge the first ten real jobs by hand — call vendors yourself, at 3
+a.m. if that is when it comes. The cold start is unscalable founder work.
+Nobody can do this part for you and no ad budget replaces it.
+
+PASS: real job posted, accept or award inside target, winner sees it clearly,
+record complete, home says they'd do it again.
+FAIL: they think cheapest won; nobody accepts and you didn't rescue it;
+you took a payment in the demo; you talked about the App Store.
+
+WEEK 1–2
+- Blockers in §6 cleared. Then run the ten sit-downs.
+- Recruit removal vendors in Birmingham until you have SIX verified and live.
+  Vendors before homes. An empty book kills demand permanently.
+- Rebuild the Founding 25 list (§9). Corridor removals and trade embalmers only.
+- Pull 30 names from the warm list. Do not email 300.
+
+WEEK 3–6
+- Goal: 10 REAL awards, Birmingham metro. Not demos.
+- Concierge every single one. Personally.
+- After every award, send the three-line forward that day.
+- Huntsville opens only when Birmingham has 3 awards in one week.
+- Scoreboard every Monday 7 a.m. CT, in writing.
+
+WEEK 7–12
+- Shape at corridor-green: 8+ homes and 6+ vendors ACTIVE in Birmingham
+  (active = posted or accepted in the last 30 days, not signed up).
+- Then and only then: turn seat billing on for vendors. Homes stay free.
+- Then and only then: exact-match Google Search, one keyword, $20/day.
+- Association newsletter ask. No booth until 2027 Mid-Winter.
+- Do not add a city. Organic Mobile/Nashville can browse.
+
+SCOREBOARD — REVISED. THESE FOUR DIAGNOSE, THE REST COUNT.
+Metric                          Green      Yellow      Red
+Median time to first accept     <10 min    10–30 min   >30 min or none
+  (urgent lane — this is our sub-15-minute-ETA number. One number. Post it weekly.)
+Fill rate (posted → awarded)    80%+       50–79%      <50%
+30-day repeat rate (homes)      40%+       20–39%      <20%
+Leakage (awards settled direct) <25%       25–40%      >40% → pricing is wrong
+Supporting counts:
+Real awards / week, Birmingham  5+         2–4         0–1
+Verified active vendors, metro  6+         3–5         <3
+Support first response          <4 hrs     same day    overnight how-to tickets
+
+Note: bids-per-job is NOT a green metric on the urgent lane. Waiting for three
+bids on a 2 a.m. removal is a failure state. Track it on the bid lane only.
+
+KILL CRITERIA — TWO, NOT ONE
+WEEK 3 GATE: if zero REAL (non-demo) jobs have been posted by anyone, stop
+recruiting. The demo converts and the product does not. Sit with two directors
+and watch them try to post without you in the room. Fix that before anything else.
+WEEK 8 GATE: if fewer than 8 real awards total, stop talking about 1,000 users.
+Fix the flow, do not buy ads, do not open a city.
+
+
+9. FOUNDING 25 — REBUILT
+Old list was vault- and crematory-heavy and half outside the corridor. Those
+are low-frequency, relationship-locked categories in cities we are not serving.
+They would have sat on the book for 90 days without a single bid and churned.
+
+RULE: Founding 25 slots go to CORRIDOR removals and trade embalmers first.
+Vaults, crematories, refrigeration and equipment go on a "notify when live"
+list — a real list, with a real email, that we honor.
+
+Slot  Specialty        Firm                          City             Status
+ 1    Equipment tech   Standridge Death Care Repair  Cleveland, AL    TJ. Category not live in v0.
+ 2    Removal          Stateline Mortuary Transport  Birmingham area  CONFIRM FIRST
+ 3    Removal          OPEN — Birmingham             Birmingham       Priority
+ 4    Removal          OPEN — Birmingham             Birmingham       Priority
+ 5    Removal          OPEN — Huntsville             Huntsville       Priority
+ 6    Removal          OPEN — Huntsville             Huntsville       Priority
+ 7    Trade embalmer   OPEN — Birmingham             Birmingham       Priority
+ 8    Trade embalmer   OPEN — Birmingham             Birmingham       Priority
+ 9    Trade embalmer   OPEN — Huntsville             Huntsville       Priority
+10    Removal          OPEN — Jasper/Cullman         corridor edge    Priority
+11–25 Fill only as categories go live, corridor first.
+
+NOTIFY-WHEN-LIVE LIST (warm DCR relationships — do NOT sign them up yet)
+Doric of Tennessee (Cowan, TN) · Nichols Burial Service (Fayette, AL) ·
+Cantrell's Sales LLC (Birmingham, AL) · Champion Rogers Vault (Pine Mountain, GA) ·
+Lindley Vaults (Douglasville, GA) · Heritage Cremations (Elizabethton, TN) ·
+Gravitas Transport (Grovetown, GA)
+Email each one: "Your category isn't live yet. When it is in your city, you get
+a founding slot and I'll call you first." Then actually do that.
+
+FOUNDING TERMS (revised)
+Free for the founding phase. When seats turn on, founding vendors pay $149 for
+year two, then $290. Everyone else pays $290 or $29/mo. Cap is 25. Hard.
+
+
+10. THE 100–1,000 PLAN — HONEST MATH, THEN COPY THE CLUSTER
+Do not start this chapter until Birmingham is green on all four diagnostic metrics.
+
+THE HONEST MATH — READ THIS BEFORE SETTING A DATE
+~1,100–1,200 funeral homes exist in AL+TN+GA total. 400 paying seats means
+roughly a quarter of every funeral home and trade vendor in three states.
+That is Uber-in-San-Francisco level penetration. It is achievable. It is not
+a 12-month number. Plan 24–36 months and be pleasantly surprised.
+Also: 1,000 users ≠ 1,000 paying seats. Homes are free. Multi-user homes count
+as several users and zero dollars. That is intentional and correct.
+Reference point: Instacart took roughly 14 months per city to reach liquidity
+with hand-recruited supply. One person, part-time, will not beat that by 10x.
+
+CITY PODS, IN THIS ORDER
+Pod                          When                    Minimum before you spend
+Huntsville (finish corridor) Birmingham green        8 homes + 6 removal vendors
+Chattanooga / north GA       Corridor green          8 + 6
+Knoxville                    Next                    8 + 6
+Nashville / middle TN        Next                    8 + 6 (DeathCall's home turf — expect a fight)
+Columbus / Macon             Next                    8 + 6
+Mobile / south AL            Next                    8 + 6
+Atlanta perimeter            Last in v0              12 + 10
+Each pod is its own cold start. Sequential. Never simultaneous.
+Do NOT open FL / MS / LA / KY even though the repair truck rolls those states.
+
+FLYWHEEL
+- Every vendor who gets paid invites two peers in the same specialty and city.
+- Every home that gets covered forwards the three-line text to one director.
+- Founding cap closes at 25.
+- One part-time closer (retired director / sales-minded embalmer) per new pod.
+- Book 2027 AFDA Mid-Winter and next TFDA / GFDA booth now.
+- Trade press only after awarded-job screenshots with written permission.
+
+ANTI-LEAKAGE — TREAT THIS AS A PRODUCT PROBLEM, NOT A POLICY PROBLEM
+This category is the worst case for leakage: high-value repeat transactions
+between the same two parties. Service marketplaces commonly lose a large share
+of potential revenue this way. Enforcement will not save us. Value will.
+Make Pay-on-TradeBook worth more than the fee it costs:
+  - Payout to the vendor within 24 hours of completion. Faster than a check.
+  - Auto-generated invoice, year-end 1099 totals, both sides.
+  - Custody log and POD attached to the payment — the document a director wants
+    when something goes wrong six months later.
+  - Dispute record. Handshake jobs get none of this.
+Keep "We'll settle direct" available and honest. Track its rate weekly.
+If leakage passes 40%, the answer is to raise Pay-on-TradeBook's value or lower
+the fee — never to hide vendor contact info. Directors will not tolerate that
+and it would confirm the "lead desk" fear.
+
+PAID ACQUISITION — TINY, EXACT, KILLABLE, AND LATER THAN YOU THINK
+Only after 20 real awards. Separate campaign, TradeBook landing page.
+Never send TradeBook traffic to deathcarerepair.com.
+Exact match only: funeral removal service Birmingham · trade embalmer Birmingham
+· funeral removal Huntsville · trade embalming Nashville
+$20/day, one pod at a time. Landing page names the city in the headline.
+Pause a keyword if cost per activated vendor exceeds $290, or if the city has
+fewer than 3 verified vendors. No PMax, YouTube, Display, X, TikTok, or ASA.
+
+UNIT ECONOMICS (revised for free Phase 0)
+Stage                          Revenue source              Realistic monthly
+Phase 0, corridor              10% book fee only           $100–$500. Yes, really.
+                               (10–20 awards × ~$40)       This phase is an investment.
+Corridor green, seats on       ~15–25 vendor seats + fee   $600–$1,000
+100 users                      ~40 vendor seats + fee      $1,400–$2,200
+~400 paying / 1,000 users      seats + fee                 $12,000–$18,000
+A $400 removal = $40 to the book. A handshake earns $0 and that is acceptable
+in Phase 0. Liquidity beats take rate until the corridor is green.
+Phase 0 cost base is Quo + domain + Stripe + TJ's nights. Keep it that way.
+
+
+11. CHANNEL PLAYBOOK AND COPY (updated for free phase and two lanes)
+
+CHANNEL RANK
+1  Prep-room sit-down on a repair call     Trust exists. Highest close.
+2  Text from a director who just used it   How this industry actually moves.
+3  Founding-vendor personal ask            Supply first, always.
+4  AFDA / TFDA / GFDA newsletter           Newsletters still work.
+5  Private Facebook mortician groups       Peer tone only.
+6  Exact-match Google Search               After 20 awards. Not before.
+7  Trade press classified                  After screenshots exist.
+8  Native App Store listing                Trust + icon. Not discovery.
+
+FOUNDING VENDOR SMS
+"Opening TradeBook in the Birmingham–Huntsville corridor. Homes post a removal
+or a trade embalming. You set your rate once; when one comes in you get it on
+your phone and you can take it — first to accept gets the job. Scheduled work
+still goes to bids, price plus ETA plus on-site or mail-in, and the home picks.
+Cheapest never auto-wins. It's free while we build the book — first 25 vendors
+lock $149 for year two. License and insurance on file to take work.
+app.tradebook.co"
+
+FOUNDING VENDOR EMAIL
+Subject: First 25 on the book — free now, $149 locks year two
+
+I'm opening TradeBook in the Birmingham–Huntsville corridor. Funeral homes post
+a removal or a trade embalming. You set a standing rate once. When work comes
+in near you, it hits your phone and you can accept it — first to accept takes
+it. Scheduled work runs on bids: price, when you can be there, on-site or
+mail-in, and the home picks. Cheapest never wins by itself.
+
+It's free right now, both sides, while we get the book full. First 25 vendor
+accounts lock $149 for year two instead of $290. Browse is always free.
+
+To take work I need your license number and a current certificate of insurance.
+That's not paperwork for its own sake — it's what makes a director trust
+somebody they haven't used before.
+
+app.tradebook.co — reply with the city you cover and I'll put you on.
+TJ
+
+HOME "POST THE FIRST CALL" TEXT
+"When you need a removal or a trade embalmer and you don't want to burn three
+voicemails, post it on TradeBook. Vendors near you get it on their phone and
+one accepts, usually inside ten minutes — you see the price and the ETA before
+you confirm. Nobody auto-picks the cheap one. Every vendor has license and
+insurance on file. It's free for funeral homes. app.tradebook.co"
+
+THREE-LINE FORWARD AFTER A REAL AWARD
+"Used TradeBook on a [removal / trade embalming] in [city]. Posted it, had it
+accepted with an ETA in [X] minutes, picked who I wanted. Free for homes.
+app.tradebook.co"
+
+COMPETING EQUIPMENT SHOP — BRAND-CLEAN ONLY
+"TradeBook is a live book, not my shop's lead desk. Homes post work, any vetted
+vendor can take it, and nobody — me included — can see anyone else's price.
+Equipment isn't even a live category yet. app.tradebook.co"
+
+"WHY NOT JUST USE DEATHCALL / MY GUY?" — SAY IT PLAIN
+"Use your guy. Seriously — log him on the book and keep using him, it's free.
+TradeBook is for the night your guy doesn't pick up. And either way you get the
+record: who had the body, when, what it cost, signed."
+
+ASSOCIATION INTRO — AFDA FIRST
+Ken Hammock, AFDA, 7 Clayton St Ste 201, Montgomery. 334-659-8400.
+info@alabamafda.org · TFDA: Office@tnfda.org · GFDA: staff@gfda.org
+
+Subject: Member tool — live book for trade work, free for funeral homes
+
+Ken — I'm TJ Standridge. We built TradeBook so a funeral home can post a
+removal or a trade embalming and have a vetted vendor accept it with a price
+and an ETA, usually inside ten minutes. Scheduled work runs on bids and the
+home always picks — lowest price is a sort, never an automatic award. Every
+vendor has a license and a certificate of insurance on file. It's free for
+funeral homes. We're starting in the Birmingham–Huntsville corridor.
+
+If a short note in the member email is appropriate, I'll send an 80-word blurb
+and a link. No booth ask for 2026.
+
+TJ Standridge · hello@tradebook.co · app.tradebook.co
+
+80-WORD BLURB IF THEY SAY YES
+"TradeBook is the live book for funeral trade work. Post a first call or a
+trade embalming; vetted vendors nearby get it on their phone and one accepts
+with a price and an ETA. Scheduled work runs on bids — price, arrival time,
+on-site or mail-in. The home always picks. Lowest price is a sort, never an
+automatic award. License and insurance verified. Free for funeral homes.
+Birmingham–Huntsville now, more of Alabama soon. app.tradebook.co"
+
+FACEBOOK GROUP POST — PEER TONE
+"For directors around Birmingham and Huntsville tired of phone tag on a first
+call. TradeBook: post the removal, vetted vendors near you get it on their
+phone, one accepts with a price and an ETA. Trade embalming and scheduled work
+run on bids and you pick — cheapest never auto-wins. License and COI on file
+for every vendor. Free for homes. I'm on it as a vendor for equipment, and
+that category isn't even live yet — nobody can see anybody else's price,
+including me. app.tradebook.co"
+
+
+12. CUSTOMER SERVICE FROM MINUTE ONE
+
+Channel                    Hours                        Owner
+In-app / site chat (Grok)  24/7                         Agent, escalate w/ transcript
+SMS to Quo number          24/7 intake                  Agent how-to; human in hours
+Voice                      9–5 CT weekdays              Human
+support@tradebook.co       Same business day            Human
+hello@tradebook.co         Partnerships / waitlist      Human
+
+MACROS
+
+Does cheapest win?
+"No. On urgent work the first vendor to accept takes it and you confirm — you
+see the price and ETA first and you can decline. On scheduled work you see
+price, arrival, and on-site or mail-in together and you click Award on the one
+you want. The book never picks for you."
+
+What does it cost?
+"Right now it's free on both sides while we fill the book. Funeral homes stay
+free permanently. Vendors will be $29 a month or $290 a year later on; the
+first 25 vendors lock $149 for year two. If you pay through TradeBook there's
+a 10% book fee, minimum $15, maximum $150 — and you can always settle direct
+for nothing."
+
+Why should I pay through the app?
+"Payout in 24 hours, invoice generated for you, year-end totals for both sides,
+and the custody log and proof of delivery attached to the payment. If something
+goes sideways six months later, that record is the whole reason."
+
+I don't want to pay on TradeBook
+"Then use We'll settle direct. No book fee. The job still shows awarded and you
+still get the record."
+
+Vendor has not connected payouts
+"The job still stands. Pay-on-TradeBook waits until they finish Stripe Connect.
+We email them. Handshake is available if you'd rather settle direct."
+
+Why do you need my license and insurance?
+"Because a director who's never used you is deciding at 2 a.m. whether to hand
+you a body. The badge is what makes that a yes. We verify the documents; we
+don't guarantee the work, and we say so plainly in the terms."
+
+Refund
+"Before payout lands: request it on the job. After payout: email
+support@tradebook.co with the job ID. We do not hold remains and we do not
+guarantee workmanship. We reverse the book payment when the facts support it."
+
+Add to Home Screen
+"iPhone: Safari → Share → Add to Home Screen. Android: Chrome → menu → Add to
+Home Screen. That's the app until the store listing ships."
+
+Wrong company
+"If a machine is down and you want Standridge Repair on the truck, call
+205-681-9122. This line is TradeBook only."
+
+SLAs (published, and deliberately beatable)
+- How-to chat: under 2 minutes (agent)
+- Human ticket: under 4 hours during published hours
+- Payout / dispute: acknowledged same business day, decided in 2 business days
+- Urgent job with no accept after 15 minutes: TJ gets paged and works the phone.
+  This is a Phase 0 promise and it is the most important one on this page.
+- First-call emergency that leaked into support: CALL them. Never chat a body
+  in a van.
+
+
+13. WEEKLY OPERATING RHYTHM
+Monday 7 a.m. CT — scoreboard, in writing. Lead with the four diagnostics:
+  accept time, fill rate, repeat rate, leakage. Then counts.
+Every repair day — one sit-down from the roster. Ten minutes.
+Every real job — concierge it personally until job #10.
+Friday — two founding-vendor follow-ups, one association or group post. Not five.
+When a real award happens — send the three-line forward that day.
+Never add a marketing channel in a week when fill rate or accept time is red.
+
+
+14. WHAT NOT TO DO
+- Open a second category before removals award weekly in Birmingham.
+- Open a second city before the first is green on all four diagnostics.
+- Sign up an out-of-corridor vendor into a Founding 25 slot to feel productive.
+- Let a vendor accept or bid without license and COI on file.
+- Show anyone's price to another vendor. Ever.
+- Decide a dispute on a job you bid.
+- Charge a seat fee before the corridor is green.
+- Hide vendor contact details to fight leakage.
+- Auto-award cheapest. Ever.
+- Leave a live-looking fake job on the public book.
+- Publish support hours you cannot cover.
+- Put Death Care Repair, Standridge, or mechanic45 on a TradeBook surface.
+- Use 205-681-9122 as the TradeBook number.
+- Spend on ads, X, TikTok, Display, or ASO before 20 real awards.
+- Promise escrow of remains or guarantee workmanship.
+- Buy a national funeral-home list and cold-email it.
+- Quote 1,000 users as a year-one number.
+
+
+15. FIRST FOURTEEN DAYS — EXACT ORDER
+DAYS 1–5 (build week — no sit-downs yet)
+  Mon   Quo number live, greeting recorded, hello@ and support@ confirmed.
+        Seat billing switched OFF. Free-phase copy live on site and app.
+  Tue   Urgent lane build starts: standing rates, notify, accept, confirm.
+  Wed   Vendor vetting gate: license + COI upload, verified badge, hard block.
+  Thu   Sealed-bid rule enforced and written on the site. Fake job removed,
+        sandbox demo mode in its place.
+  Fri   The Record v1: custody log, POD, signature, invoice export.
+        Rebuild Founding 25 list, corridor removals and trade embalmers only.
+        Send the notify-when-live email to the seven warm DCR names.
+
+DAYS 6–10 (supply week — vendors before homes)
+  Mon   Confirm Stateline. Verify docs. First vendor live end to end.
+  Tue   Ten founding-vendor texts. Removals in Birmingham only.
+  Wed   Two vendor sit-downs — reverse the chairs, they accept, they see it.
+  Thu   Two more. Target six verified Birmingham removal vendors live.
+  Fri   Trade embalmer outreach, corridor only. Scoreboard in writing.
+
+DAYS 11–14 (demand week — only if 6 vendors are verified and live)
+  Mon   Smith & Gaston. Sit-down #1. Sandbox demo. The concierge close.
+  Tue   Currie-Jefferson + Jefferson Memorial on one trip.
+  Wed   Deerfoot, then Davenport & Harris.
+  Thu   Huntsville pair: Spry + Laughlin on one trip.
+  Fri   Elmwood. Scoreboard. Week 3 gate is now visible — has anyone posted
+        a real job yet?
+
+If six vendors are not verified and live by day 10, do not start demand week.
+Push it. A director whose first post gets no accept never posts again.
+
+
+BOTTOM LINE
+Launch is not an App Store event and it is not a signup number. Launch is the
+night an Alabama director posts a real first call at 2 a.m., a vetted vendor he
+has never used accepts it in eight minutes with a price and an ETA, the body
+gets where it's going, and the record is sitting there in the morning.
+
+Build the accept button. Verify the vendors. Charge nobody yet. Rescue the
+first ten jobs personally. Keep Standridge off the homepage.
+Six verified removal vendors come before Smith & Gaston.
